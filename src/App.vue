@@ -1,3 +1,10 @@
 <template>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <player />
 </template>
+
+<script>
+    import player from "./components/player.vue";
+    export default {
+        components: { player },
+    };
+</script>
